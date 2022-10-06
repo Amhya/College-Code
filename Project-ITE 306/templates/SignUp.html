@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TVzone</title>
+		<link rel="stylesheet" href="{{url_for('static', filename='login.css')}}">
+	</head>
+	<body>
+		<form action="http://localhost:5000/login" method="post">
+			<h3 >Sign In to your Account</h3><br>
+			<label for="username">Username:&nbsp&nbsp&nbsp</label>
+				<input type="text" name="username" placeholder="Enter Your Username" id="account"><br><br>
+			<label for="password">Password: &nbsp&nbsp&nbsp</label>
+				<input type="password" name="password" placeholder="Enter your password" id="account"><br><br>
+			<label for="email">Email:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label>
+				<input type="email" name="email" placeholder="Enter your email" size="25" id="account"><br><br>
+			<button type="submit" >Sign Up</button><br>
+			<input type="checkbox" name="agree" value="agree" id="checkbox">
+			<label for="agree" id="agree">Remember Me</label>
+		</form>
+	</body>
+			
+
+</html>
